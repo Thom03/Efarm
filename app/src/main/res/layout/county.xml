@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#808080">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:text="@string/select_county"
+        android:id="@+id/county"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/county"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="40dp"
+       >
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:text="NEXT"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:id="@+id/Bnextcounty"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onButtonCoun" />
+    </LinearLayout>
+</LinearLayout>

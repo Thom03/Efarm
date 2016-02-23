@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#808080"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentLeft="true"
+        android:text="@string/select_shopc"
+        android:padding="25dp"
+        android:id="@+id/shopc" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/shopc"
+        android:id="@+id/spinner1"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="SUBMIT"
+        android:id="@+id/Bshopcentres"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12" />
+
+</LinearLayout>

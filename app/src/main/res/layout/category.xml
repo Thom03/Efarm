@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#808080"
+    android:weightSum="1">
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Potatoes"
+        android:drawableLeft="@drawable/p"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/Bnextcategory"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onButtonRad"
+        android:layout_weight="0.07" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.14"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Maize"
+        android:drawableLeft="@drawable/mei"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/BtnMaize"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onButtonRad"
+        android:layout_weight="0.07" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.18"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cabbage"
+        android:drawableLeft="@drawable/c"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/BtnCabbage"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onButtonRad"
+        android:layout_weight="0.08" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.18"
+        tools:targetApi="ice_cream_sandwich" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Beans"
+        android:drawableLeft="@drawable/bin"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/BtnBeans"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onButtonRad"
+        android:layout_weight="0.10" />
+
+
+
+
+</LinearLayout>

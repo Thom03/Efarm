@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Efarm</string>
+    <string name="action_settings">Settings</string>
+    <string name="emptyString" />
+    <string name="select_county">Please select county</string>
+    <string-array name="county_name">
+        <item>Machakos</item>
+        <item>Kitui</item>
+
+    </string-array>
+
+    <string name="select_shopc">Select shopping centre:</string>
+    <string-array name="shopping_centre">
+        <item>Kikima</item>
+        <item>Kithyoko</item>
+    </string-array>
+    <string-array name="kshopping_centre">
+        <item>Kabati</item>
+        <item>Kwa vonza</item>
+    </string-array>
+
+</resources>
